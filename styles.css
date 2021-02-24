@@ -1,0 +1,120 @@
+/* Fonts */
+
+* {
+    font-family: 'Source Code Pro', monospace;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+}
+
+/* -------------------- */
+
+/* General Page Layout */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    background: url(./images/background.jpg) no-repeat fixed;
+}
+
+/* -------------------- */
+
+/* Header Section */
+
+header h1 {
+    margin: 50px 0 0 0;
+}
+
+header h5 {
+    margin: 0 0 50px 0;
+    font-size: small;
+}
+
+.logo {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+/* -------------------- */
+
+
+/* Navigation */
+
+nav {
+    width: auto;
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul {
+    background: rgba(255, 255, 255, 0.418);
+    padding: 45px 0;
+    margin: 0 0 50px 0;
+    color: black;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    list-style-type: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 15px;
+    margin: 0px 50px;
+    padding: 15px 25px;
+}
+
+/* -------------------- */
+
+
+/* About Section */
+
+.about h1 {
+    display: inline-block;
+    margin: 50px 25px;
+    padding: 45px 300px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 15px;
+}
+
+/* -------------------- */
+
+
+/* Meet the Hosts Section */
+
+/* -------------------- */
+
+
+/* Listen Now Section */
+
+/* -------------------- */
+
+
+/* Footer Section */
+
+footer h3 {
+    margin: 0;
+}
+
+footer {
+    background: rgba(255, 255, 255, 0.438);
+    color: white;
+    margin: 0;
+}
+
+/* -------------------- */
