@@ -121,6 +121,67 @@ nav ul li a:hover {
 /* -------------------- */
 
 
+/* Pop up box */
+
+.close {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+input {
+    color: black;
+    font-size: medium;
+}
+
+.join-button:hover {
+    background: rgb(124, 124, 124);
+    transition: .4s;
+    transform: scale(1.04);
+
+}
+
+.join-button {
+    margin-top: 15px;
+    color: white;
+    background: black;
+    border: none;
+    border-radius: 10px;
+}
+
+.email-h {
+    color: black;
+    font-size: larger;
+}
+
+.email  {
+    background: rgba(36, 36, 36, 0.849);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.email-form {
+    height: 200px;
+    width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 3px 3px 3px 3px rgb(26, 26, 26);
+}
+
+/* -------------------- */
+
+
 /* Footer Section */
 
 footer h3 {
