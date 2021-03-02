@@ -113,6 +113,13 @@ nav ul li a:hover {
 
 /* Meet the Hosts Section */
 
+.headshot {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    border: solid white 4px;
+}
+
 /* -------------------- */
 
 
