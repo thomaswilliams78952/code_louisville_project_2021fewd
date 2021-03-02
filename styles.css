@@ -97,6 +97,10 @@ nav ul li a:hover {
 
 /* About Section */
 
+.about {
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+}
+
 .about h1 {
     display: inline-block;
     margin: 50px 25px;
@@ -113,6 +117,10 @@ nav ul li a:hover {
 
 /* Meet the Hosts Section */
 
+.mth {
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+}
+
 .headshot {
     width: 250px;
     height: 250px;
@@ -125,6 +133,10 @@ nav ul li a:hover {
 
 /* Listen Now Section */
 
+.listen {
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+}
+
 /* -------------------- */
 
 
@@ -132,13 +144,13 @@ nav ul li a:hover {
 
 /* Footer Section */
 
-footer h3 {
-    margin: 0;
-}
-
 footer {
     background: rgba(255, 255, 255, 0.438);
     color: white;
+    margin: 0;
+}
+
+footer h3 {
     margin: 0;
 }
 
