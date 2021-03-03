@@ -112,6 +112,19 @@ nav ul li a:hover {
     border-radius: 15px;
 }
 
+.about p {
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    display: inline-block;
+    width: 1430px;
+}
+
+.about-img {
+    border: solid white 15px;
+    border-radius: 80px;
+    margin: 50px;
+}
+
 /* -------------------- */
 
 
@@ -121,7 +134,19 @@ nav ul li a:hover {
     border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
 }
 
+.mth h1 {
+    display: inline-block;
+    margin: 50px 25px;
+    padding: 45px 300px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 15px;
+}
+
 .headshot {
+    display: block;
     width: 250px;
     height: 250px;
     border-radius: 100%;
@@ -155,6 +180,11 @@ footer h3 {
     margin: 0;
 }
 
+
+/* -------------------- */
+
+
+/* Back to top button */
 footer a {
     background: white;
     border-radius: 15px;
@@ -162,6 +192,7 @@ footer a {
     color: black;
     font-size: medium;
     margin: 20px 0 0 0;
+    box-shadow: 1px 1px 1px black;
     transition: 0.2s;
 }
 
