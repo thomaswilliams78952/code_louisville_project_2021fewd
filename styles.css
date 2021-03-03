@@ -167,13 +167,10 @@ footer a {
 
 footer a:hover {
     background: black;
-    border-radius: 15px;
-    padding: 6px;
     color: white;
-    font-size: medium;
-    margin: 20px 0 0 0;
     border: solid white 2px ;
-    transition: 0.2s;
+    transform: scale(1.5);
+    transition: 0.4s;
 }
 
 /* -------------------- */
