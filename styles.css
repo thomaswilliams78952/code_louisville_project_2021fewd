@@ -85,10 +85,11 @@ nav ul li a {
     padding: 15px 30px;
     box-shadow: 2px 2px 2px black;
     transition: .5s;
+    border: solid white 2px;
+
 }
 
 nav ul li a:hover {
-    border: solid white 2px;
     color: white;
     background: rgb(0, 0, 0);
     transition: .2s;
