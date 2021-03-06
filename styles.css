@@ -37,6 +37,7 @@ header h5 {
     width: 450px;
     height: 450px;
     margin-bottom: 50px;
+    transition: .5s;
 }
 
 /* -------------------- */
@@ -125,7 +126,10 @@ nav ul li a:hover {
 .about-img {
     border: solid white 15px;
     border-radius: 80px;
-    margin: 50px;
+    margin: 25px;
+
+    /* image size is 1434 x 372 */
+
 }
 
 /* -------------------- */
@@ -244,3 +248,34 @@ footer a:hover {
 }
 
 /* -------------------- */
+
+
+/* Media Queries */
+
+        /* logo */
+@media (max-width: 1531px) {
+    .logo {
+            width: 250px;
+            height: 250px;
+            margin-bottom: 50px;
+    }
+}
+
+        /* Nav Bar */
+@media (max-width: 1531px) {
+    nav ul li a {
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 35px;
+        margin: 0px 6px;
+        padding: 7px 15px;
+        box-shadow: 2px 2px 2px black;
+        border: solid white 2px;
+    
+    }
+
+}
