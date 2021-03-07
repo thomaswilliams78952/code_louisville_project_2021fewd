@@ -155,7 +155,6 @@ nav ul li a:hover {
 .headshot-container {
     display: flex;
     flex-direction: column;
-    justify-content: ;
 }
 
 .head-flex {
@@ -275,3 +274,5 @@ footer a:hover {
         border: solid white 2px;
     
     }
+
+}
