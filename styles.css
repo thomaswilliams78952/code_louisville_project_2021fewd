@@ -129,6 +129,7 @@ nav ul li a:hover {
     margin: 25px;
 
     /* image size is 1434 x 372 */
+    /* half is 717 x 186 */
 
 }
 
@@ -273,6 +274,14 @@ footer a:hover {
         box-shadow: 2px 2px 2px black;
         border: solid white 2px;
     
+    }
+
+    .about-img {
+        border: solid white 15px;
+        border-radius: 80px;
+        margin: 25px;
+        height: 186px;
+        width: 717px;
     }
 
 }
