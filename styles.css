@@ -121,13 +121,16 @@ nav ul li a:hover {
     margin-right: 150px; */
     display: inline-block;
     width: 1430px;
+    transition: .2s;
 }
 
 .about-img {
     border: solid white 15px;
     border-radius: 80px;
     margin: 25px;
-
+    height: 372px;
+    width: 1434px;
+    transition: .2s;
     /* image size is 1434 x 372 */
     /* half is 717 x 186 */
 
@@ -255,8 +258,8 @@ footer a:hover {
         /* logo */
 @media (max-width: 1531px) {
     .logo {
-            width: 250px;
-            height: 250px;
+            width: 300px;
+            height: 300px;
             margin-bottom: 50px;
     }
 
@@ -276,12 +279,21 @@ footer a:hover {
     
     }
 
+    .about p {
+        /* margin-left: 150px;
+        margin-right: 150px; */
+        display: inline-block;
+        width: 1117px;
+        transition: .2s;
+    }
+
     .about-img {
         border: solid white 15px;
         border-radius: 80px;
         margin: 25px;
-        height: 186px;
-        width: 717px;
+        height: 286px;
+        width: 1117px;
+        transition: .2s;
     }
 
 }
