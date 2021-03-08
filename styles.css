@@ -4,6 +4,11 @@
     font-family: 'Source Code Pro', monospace;
     font-size: xx-large;
     color: rgb(255, 255, 255);
+    
+}
+
+p {
+    text-shadow: 2px 2px rgba(65, 65, 65, 0.829);
 }
 
 /* -------------------- */
@@ -179,7 +184,6 @@ nav ul li a:hover {
 
 .head-flex p {
     margin: 20 45px;
-    text-shadow: 2px 2px rgba(65, 65, 65, 0.829);
 }
 
 .headshot {
