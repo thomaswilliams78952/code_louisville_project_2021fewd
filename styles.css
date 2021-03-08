@@ -107,7 +107,7 @@ nav ul li a:hover {
 
 .about h1 {
     display: inline-block;
-    margin: 50px 25px;
+    margin: 45px 25px;
     padding: 45px 300px;
     font-weight: bold;
     letter-spacing: 3px;
@@ -158,24 +158,33 @@ nav ul li a:hover {
 
 .headshot-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .head-flex {
     display: flex;
     flex-direction: column;
+    margin: 0 10px;
 }
 
 .head-flex h2 {
     color: black;
     background: white;
+    margin: 5px auto;
     padding: 15px;
     border-radius: 45px;
     width: 250px;
 }
 
+.head-flex p {
+    margin: 20 45px;
+    text-shadow: 2px 2px rgba(65, 65, 65, 0.829);
+}
+
 .headshot {
     display: block;
+    margin: 0 auto;
     width: 250px;
     height: 250px;
     border-radius: 100%;
@@ -184,8 +193,8 @@ nav ul li a:hover {
 }
 
 .headshot:hover {
-    transform: scale(1.2) rotate(10deg);
-    transition: .2s;
+    transform: scale(1.2) rotate(360deg);
+    transition: .5s;
 }
 
 /* -------------------- */
