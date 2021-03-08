@@ -197,7 +197,7 @@ nav ul li a:hover {
 }
 
 .headshot:hover {
-    transform: scale(1.2) rotate(360deg);
+    transform: scale(1.08);
     transition: .5s;
 }
 
@@ -244,7 +244,7 @@ footer h3 {
 
 
 /* Back to top button */
-footer a {
+.btt {
     background: white;
     border-radius: 15px;
     padding: 6px 7px;
@@ -255,12 +255,26 @@ footer a {
     transition: 0.2s;
 }
 
-footer a:hover {
+.btt:hover {
     background: black;
     color: white;
     border: solid white 2px ;
     transform: scale(1.5);
     transition: 0.4s;
+}
+
+.icon-flex {
+    display: block;
+    margin-top: 15px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px black;
 }
 
 /* -------------------- */
