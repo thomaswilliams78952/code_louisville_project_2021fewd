@@ -17,6 +17,3 @@ Meet the Hosts section
 
 Listen Now section
   This section informs the user that they can listen to the podcast via four different links. Each link points to a different source where they can find this podcast. This section   also has the above "Back to Top" button and functions the same way
-  
-  
-Lastly there is a sign up button run by JavaScript that opens a form that asks users if they would like to provide their email address to receive updates on future podcast information
