@@ -160,6 +160,7 @@ nav ul li a:hover {
     color: black;
     background: white;
     border-radius: 45px;
+    transition: .2s;
 }
 
 .headshot-container {
@@ -349,4 +350,22 @@ footer p {
         transition: .2s;
     }
 
+    .mth h1 {
+        display: inline-block;
+        margin: 50px 25px;
+        padding: 30px 200px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    nav {
+        display: none;
+    }
 }
