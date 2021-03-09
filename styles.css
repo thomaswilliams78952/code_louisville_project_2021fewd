@@ -119,6 +119,7 @@ nav ul li a:hover {
     color: black;
     background: white;
     border-radius: 45px;
+    transition: .2s;
 }
 
 .about p {
@@ -170,7 +171,7 @@ nav ul li a:hover {
 .head-flex {
     display: flex;
     flex-direction: column;
-    margin: 0 10px;
+    margin: 0 100px;
 }
 
 .head-flex h2 {
@@ -252,7 +253,7 @@ footer h3 {
     font-size: medium;
     margin: 20px 0 0 0;
     box-shadow: 1px 1px 1px black;
-    transition: 0.2s;
+    transition: 0.4s;
 }
 
 .btt:hover {
@@ -276,6 +277,7 @@ footer h3 {
     border: solid white 2px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px black;
+    transition: .4s;
 }
 
 .icon:hover {
@@ -317,6 +319,17 @@ footer p {
         box-shadow: 2px 2px 2px black;
         border: solid white 2px;
     
+    }
+
+    .about h1 {
+        display: inline-block;
+        margin: 45px 25px;
+        padding: 30px 200px;
+        font-weight: 600;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
     }
 
     .about p {
