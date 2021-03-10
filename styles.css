@@ -53,6 +53,18 @@ header h5 {
     display: none;
 }
 
+.mobile-menu {
+    background: white;
+    position: fixed ;
+}
+
+.mobile-menu ul {
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
 /* -------------------- */
 
 
@@ -378,10 +390,12 @@ footer p {
     }
 
     header {
-        background: rgba(255, 255, 255, 0.452);
+        background: rgb(146, 146, 146);
         margin: 0 auto;
         padding: 25px 25px;
         text-align: left;
+        position: sticky;
+        top: 0px;
         display: flex;
         justify-content: space-between;
     }
