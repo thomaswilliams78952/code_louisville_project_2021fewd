@@ -55,16 +55,25 @@ header h5 {
 
 .mobile-menu {
     background: white;
-    position: fixed ;
+    box-shadow: 2px 2px 2px gray;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    width: 100vw;
+    margin-top: -2.5em;
     display: none;
 }
 
 .mobile-menu ul {
-    margin: 0 auto;
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0 15px;
     padding: 0;
     text-decoration: none;
     list-style: none;
 }
+
+
 
 /* -------------------- */
 
@@ -211,15 +220,11 @@ nav ul li a:hover {
     margin: 0 auto;
     width: 250px;
     height: 250px;
-    border-radius: 100%;
+    border-radius: 50px;
     border: solid white 8px;
     transition: .4s;
 }
 
-.headshot:hover {
-    transform: scale(1.08);
-    transition: .5s;
-}
 
 /* -------------------- */
 
@@ -419,6 +424,7 @@ footer p {
     }
 
     .menu {
+        margin-top: 15px;
         height: 36px;
         width: 36px;
         display: inline;
@@ -435,17 +441,16 @@ footer p {
 
     .mobile-logo {
         display: block;
-
         height: auto;
-        width: 90vw;
-        margin: 15px auto;
+        width: 70vw;
+        margin: 70px auto 25px auto;
     }
 
     /* About section */
 
     .about h1 {
         display: inline-block;
-        margin: 0 auto;
+        margin: 25px auto;
         padding: 0;
         font-weight: bold;
         letter-spacing: 3px;
@@ -457,13 +462,13 @@ footer p {
     }
 
     .about p {
-        width: 90vw;
+        width: 80vw;
     }
 
     .about-img {
-        width: 90vw;
+        width: 80vw;
         height: auto;
-        margin: 0 auto;
+        margin: 25px auto;
         border: solid white 5px;
     }
 
@@ -473,7 +478,7 @@ footer p {
 
     .mth h1 {
         display: inline-block;
-        margin: 0 auto;
+        margin: 25px auto;
         padding: 0;
         font-weight: bold;
         letter-spacing: 3px;
@@ -484,8 +489,8 @@ footer p {
     }
 
     .mth p {
-        width: 90vw;
-        margin: 0 auto;
+        width: 70vw;
+        margin: 25px auto;
         padding-bottom: 15px;
     }
 
@@ -501,13 +506,20 @@ footer p {
         margin: 0;
     }
 
+    .headshot {
+        margin: 35px auto 20px auto;
+        width: 50vw;
+        height: auto;
+
+    }
+
     /* -------------------- */
 
     /* listen now section */
 
     .listen h1 {
         display: inline-block;
-        margin: 0 auto;
+        margin: 25px auto;
         padding: 0;
         font-weight: bold;
         letter-spacing: 3px;
@@ -515,6 +527,11 @@ footer p {
         color: white;
         border-radius: 45px;
         transition: .2s;
+    }
+
+    .listen p {
+        margin: 25px auto;
+        width: 70vw;
     }
 
     /* -------------------- */
