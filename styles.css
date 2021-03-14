@@ -246,6 +246,37 @@ nav ul li a:hover {
     border-radius: 45px;
 }
 
+.listen-flex p a {
+    color: rgb(163, 57, 163);
+}
+
+.listen-flex p {
+    width: 400px;
+    margin: auto 10px;
+    color: white;
+}
+
+.listen-flex {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.badge {
+    width: 250px;
+    height: 65px;
+    box-shadow: 2px 2px 2px gray;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.listen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 15px;
+}
+
 /* -------------------- */
 
 
@@ -534,6 +565,29 @@ footer p {
         width: 70vw;
     }
 
+    .listen-grid {
+        margin: 25px auto 25px auto;
+    }
+
+    .listen-flex {
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px auto;
+    }
+
+    .badge {
+        width: 200px;
+        height: 50px;
+        box-shadow: 2px 2px 2px gray;
+        border: solid 2px white;
+        border-radius: 15px;
+    }
+    
+    .listen-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        gap: 15px;
+    }
     /* -------------------- */
 
 }
