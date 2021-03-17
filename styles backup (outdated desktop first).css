@@ -1,0 +1,593 @@
+/* Fonts */
+
+* {
+    font-family: 'Source Code Pro', monospace;
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    
+}
+
+p {
+    text-shadow: 2px 2px rgba(65, 65, 65, 0.829);
+}
+
+/* -------------------- */
+
+/* General Page Layout */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    justify-content: center;
+    background: url(./images/background.jpg) no-repeat fixed;
+}
+
+/* -------------------- */
+
+/* Header Section */
+
+header h1 {
+    margin: 50px 0 0 0;
+}
+
+header h5 {
+    margin: 0 0 50px 0;
+    font-size: small;
+}
+
+.logo {
+    width: 450px;
+    height: 450px;
+    margin-bottom: 50px;
+    transition: .5s;
+}
+
+.menu {
+    display: none;
+}
+
+.mobile-logo {
+    display: none;
+}
+
+.mobile-menu {
+    background: white;
+    box-shadow: 2px 2px 2px gray;
+    position: fixed;
+    right: 0;
+    top: 200px;
+    width: 100vw;
+    margin-top: -2.5em;
+    display: none;
+}
+
+.mobile-menu ul {
+    text-transform: uppercase;
+    text-align: right;
+    margin: 0 15px;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* -------------------- */
+
+
+/* Navigation */
+
+nav {
+    width: auto;
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav ul {
+    background: rgba(255, 255, 255, 0.418);
+    padding: 45px 0;
+    margin: 0 0 50px 0;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+    transition: .2s;
+}
+
+nav ul li:hover {
+    /* transform: scale(1.07); */
+    transition: .2s;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 35px;
+    margin: 0px 50px;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 2px black;
+    transition: .5s;
+    border: solid white 2px;
+
+}
+
+nav ul li a:hover {
+    color: white;
+    background: rgb(0, 0, 0);
+    transition: .2s;
+}
+
+/* -------------------- */
+
+
+/* About Section */
+
+.about {
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+}
+
+.about h1 {
+    display: inline-block;
+    margin: 45px 25px;
+    padding: 45px 300px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 45px;
+    transition: .2s;
+}
+
+.about p {
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    display: inline-block;
+    width: 1430px;
+    transition: .2s;
+}
+
+.about-img {
+    border: solid white 15px;
+    border-radius: 80px;
+    margin: 25px;
+    height: 372px;
+    width: 1434px;
+    transition: .2s;
+}
+
+/* -------------------- */
+
+
+/* Meet the Hosts Section */
+
+.mth {
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+}
+
+.mth h1 {
+    display: inline-block;
+    margin: 50px 25px;
+    padding: 45px 300px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 45px;
+    transition: .2s;
+}
+
+.headshot-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.head-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.head-flex h2 {
+    color: black;
+    background: white;
+    margin: 5px auto;
+    padding: 15px;
+    border-radius: 45px;
+    width: 250px;
+}
+
+.head-flex p {
+    margin: 20 45px;
+}
+
+.headshot {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    border: solid white 8px;
+    transition: .4s;
+}
+
+
+/* -------------------- */
+
+
+/* Listen Now Section */
+
+.listen {
+    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+}
+
+.listen h1 {
+    display: inline-block;
+    margin: 50px 25px;
+    padding: 45px 300px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: black;
+    background: white;
+    border-radius: 45px;
+}
+
+.listen-flex p a {
+    color: rgb(163, 57, 163);
+}
+
+.listen-flex p {
+    width: 400px;
+    margin: auto 10px;
+    color: white;
+}
+
+.listen-flex {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.badge {
+    width: 250px;
+    height: 65px;
+    box-shadow: 2px 2px 2px gray;
+    border: solid 2px white;
+    border-radius: 15px;
+}
+
+.listen-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 250px);
+    gap: 15px;
+}
+
+/* -------------------- */
+
+
+
+
+/* Footer Section */
+
+footer {
+    background: rgba(255, 255, 255, 0.438);
+    color: white;
+    margin: 0 0 0 0;
+    padding: 25px;
+}
+
+footer h3 {
+    margin: 0;
+}
+
+
+/* -------------------- */
+
+
+/* Back to top button */
+.btt {
+    background: white;
+    border-radius: 15px;
+    padding: 6px 7px;
+    color: black;
+    font-size: medium;
+    margin: 20px 0 0 0;
+    box-shadow: 1px 1px 1px black;
+    transition: 0.4s;
+}
+
+.btt:hover {
+    background: black;
+    color: white;
+    border: solid white 2px ;
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+.icon-flex {
+    display: block;
+    margin-top: 15px;
+}
+
+.icon {
+    display: inline-block;
+    margin: 10px 10px;
+    height: 50px;
+    width: 50px;
+    border: solid white 2px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px black;
+    transition: .4s;
+}
+
+.icon:hover {
+    filter: invert(1);
+    transition: .4s;
+    border: solid black 2px;
+    box-shadow: 2px 2px 2px white;
+
+}
+
+
+footer p {
+    font-size: small;
+}
+/* -------------------- */
+
+
+/* Media Queries */
+
+        /* logo */
+@media (max-width: 1531px) {
+    .logo {
+            width: 300px;
+            height: 300px;
+            margin-bottom: 50px;
+    }
+
+    /* navbar */
+    nav ul li a {
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 35px;
+        margin: 0px 6px;
+        padding: 7px 15px;
+        box-shadow: 2px 2px 2px black;
+        border: solid white 2px;
+    
+    }
+
+    .about h1 {
+        display: inline-block;
+        margin: 45px 25px;
+        padding: 30px 200px;
+        font-weight: 600;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+
+    .about p {
+        /* margin-left: 150px;
+        margin-right: 150px; */
+        display: inline-block;
+        width: 1117px;
+        transition: .2s;
+    }
+
+    .about-img {
+        border: solid white 15px;
+        border-radius: 80px;
+        margin: 25px;
+        height: 286px;
+        width: 1117px;
+        transition: .2s;
+    }
+
+    .mth h1 {
+        display: inline-block;
+        margin: 50px 25px;
+        padding: 30px 200px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+
+}
+
+@media (max-width: 1200px) {
+
+
+    /* header section */
+    .logo {
+        display: none;
+    }
+
+    header {
+        background: rgb(146, 146, 146);
+        margin: 0 auto;
+        padding: 25px 25px;
+        text-align: left;
+        position: sticky;
+        top: 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header h1 {
+        font-size: xx-large;
+        text-shadow: 2px 2px 2px black;
+        margin: 0 0;
+    }
+
+    header h5 {
+        display: none;
+    }
+
+/* -------------------- */
+
+    /* nav section */
+    nav {
+        display: none;
+    }
+
+    .menu {
+        margin-top: 15px;
+        height: 36px;
+        width: 36px;
+        display: inline;
+        transition: .2s;
+    }
+
+    .menu:hover {
+        filter: invert(1);
+        transition: .2s;
+        cursor: pointer;
+    }
+
+    /* -------------------- */
+
+    .mobile-logo {
+        display: block;
+        height: auto;
+        width: 70vw;
+        margin: 70px auto 25px auto;
+    }
+
+    /* About section */
+
+    .about h1 {
+        display: inline-block;
+        margin: 25px auto;
+        padding: 0;
+        font-weight: bold;
+        letter-spacing: 3px;
+        background: none;
+        color: white;
+        border-radius: 45px;
+        text-shadow: 2px 2px 2px gray;
+        transition: .2s;
+    }
+
+    .about p {
+        width: 80vw;
+    }
+
+    .about-img {
+        width: 80vw;
+        height: auto;
+        margin: 25px auto;
+        border: solid white 5px;
+    }
+
+    /* -------------------- */
+
+    /* Meet the hosts section */
+
+    .mth h1 {
+        display: inline-block;
+        margin: 25px auto;
+        padding: 0;
+        font-weight: bold;
+        letter-spacing: 3px;
+        background: none;
+        color: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+
+    .mth p {
+        width: 70vw;
+        margin: 25px auto;
+        padding-bottom: 15px;
+    }
+
+    .headshot-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .head-flex {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .headshot {
+        margin: 35px auto 20px auto;
+        width: 50vw;
+        height: auto;
+
+    }
+
+    /* -------------------- */
+
+    /* listen now section */
+
+    .listen h1 {
+        display: inline-block;
+        margin: 25px auto;
+        padding: 0;
+        font-weight: bold;
+        letter-spacing: 3px;
+        background: none;
+        color: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+
+    .listen p {
+        margin: 25px auto;
+        width: 70vw;
+    }
+
+    .listen-grid {
+        margin: 25px auto 25px auto;
+    }
+
+    .listen-flex {
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px auto;
+    }
+
+    .badge {
+        width: 200px;
+        height: 50px;
+        box-shadow: 2px 2px 2px gray;
+        border: solid 2px white;
+        border-radius: 15px;
+    }
+    
+    .listen-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 200px);
+        gap: 15px;
+    }
+    /* -------------------- */
+
+}

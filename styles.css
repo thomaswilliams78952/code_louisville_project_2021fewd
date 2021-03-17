@@ -3,12 +3,12 @@
 * {
     font-family: 'Source Code Pro', monospace;
     font-size: xx-large;
-    color: rgb(255, 255, 255);
-    
+    color: rgb(255, 255, 255);    
 }
 
 p {
     text-shadow: 2px 2px rgba(65, 65, 65, 0.829);
+    font-size: 70%;
 }
 
 /* -------------------- */
@@ -17,6 +17,8 @@ p {
 
 html {
     scroll-behavior: smooth;
+    transition: .5s;
+
 }
 
 body {
@@ -30,26 +32,27 @@ body {
 /* Header Section */
 
 header h1 {
-    margin: 50px 0 0 0;
+    font-size: 75%;
+    text-shadow: 2px 2px 2px black;
+    margin: 0 0;
 }
 
 header h5 {
-    margin: 0 0 50px 0;
-    font-size: small;
-}
-
-.logo {
-    width: 450px;
-    height: 450px;
-    margin-bottom: 50px;
-    transition: .5s;
-}
-
-.menu {
     display: none;
 }
 
-.mobile-logo {
+header {
+    background: rgb(146, 146, 146);
+    margin: 0 auto;
+    padding: 25px 25px;
+    text-align: left;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
     display: none;
 }
 
@@ -81,55 +84,30 @@ header h5 {
 /* Navigation */
 
 nav {
-    width: auto;
-    border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
-
+    display: none;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-
-}
-
-nav ul {
-    background: rgba(255, 255, 255, 0.418);
-    padding: 45px 0;
-    margin: 0 0 50px 0;
-    color: black;
-}
-
-nav ul li {
-    display: inline-block;
+.menu {
+    margin-top: 15px;
+    height: 36px;
+    width: 36px;
+    display: inline;
     transition: .2s;
 }
 
-nav ul li:hover {
-    /* transform: scale(1.07); */
+.menu:hover {
+    filter: invert(1);
     transition: .2s;
+    cursor: pointer;
 }
 
-nav ul li a {
-    text-decoration: none;
-    list-style-type: none;
-    font-weight: bold;
-    letter-spacing: 3px;
-    color: black;
-    background: white;
-    border-radius: 35px;
-    margin: 0px 50px;
-    padding: 15px 30px;
-    box-shadow: 2px 2px 2px black;
-    transition: .5s;
-    border: solid white 2px;
-
+.mobile-logo {
+    display: block;
+    height: auto;
+    width: 70vw;
+    margin: 70px auto 25px auto;
 }
 
-nav ul li a:hover {
-    color: white;
-    background: rgb(0, 0, 0);
-    transition: .2s;
-}
 
 /* -------------------- */
 
@@ -141,31 +119,29 @@ nav ul li a:hover {
 }
 
 .about h1 {
-    display: inline-block;
-    margin: 45px 25px;
-    padding: 45px 300px;
+    display: block;
+    margin: 25px auto;
+    padding: 0;
     font-weight: bold;
     letter-spacing: 3px;
-    color: black;
-    background: white;
+    background: none;
+    color: white;
     border-radius: 45px;
+    text-shadow: 2px 2px 2px gray;
     transition: .2s;
 }
 
 .about p {
-    /* margin-left: 150px;
-    margin-right: 150px; */
     display: inline-block;
-    width: 1430px;
-    transition: .2s;
+    width: 80vw;
 }
 
 .about-img {
-    border: solid white 15px;
+    border: solid white 5px;
     border-radius: 80px;
-    margin: 25px;
-    height: 372px;
-    width: 1434px;
+    margin: 25px auto;
+    height: auto;
+    width: 80vw;
     transition: .2s;
 }
 
@@ -180,26 +156,34 @@ nav ul li a:hover {
 
 .mth h1 {
     display: inline-block;
-    margin: 50px 25px;
-    padding: 45px 300px;
+    margin: 25px auto;
+    padding: 0;
     font-weight: bold;
     letter-spacing: 3px;
-    color: black;
-    background: white;
+    color: white;
+    background: none;
     border-radius: 45px;
     transition: .2s;
+    text-shadow: 2px 2px 2px gray;
+
+}
+
+.mth p {
+    width: 70vw;
+    margin: 25px auto;
+    padding-bottom: 15px;
 }
 
 .headshot-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 .head-flex {
     display: flex;
     flex-direction: column;
-    margin: 0 100px;
+    margin: 0;
 }
 
 .head-flex h2 {
@@ -217,9 +201,9 @@ nav ul li a:hover {
 
 .headshot {
     display: block;
-    margin: 0 auto;
-    width: 250px;
-    height: 250px;
+    margin: 35px auto 20px auto;
+    width: 50vw;
+    height: auto;
     border-radius: 50px;
     border: solid white 8px;
     transition: .4s;
@@ -237,35 +221,37 @@ nav ul li a:hover {
 
 .listen h1 {
     display: inline-block;
-    margin: 50px 25px;
-    padding: 45px 300px;
+    margin: 25px auto;
+    padding: 0;
     font-weight: bold;
     letter-spacing: 3px;
-    color: black;
-    background: white;
+    color: white;
+    background: none;
     border-radius: 45px;
+    transition: .2s;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.listen p {
+    margin: 25px auto;
+    width: 70vw;
 }
 
 .listen-flex p a {
     color: rgb(163, 57, 163);
 }
 
-.listen-flex p {
-    width: 400px;
-    margin: auto 10px;
-    color: white;
-}
 
 .listen-flex {
     display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 25px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 25px auto;
 }
 
 .badge {
-    width: 250px;
-    height: 65px;
+    width: 125px;
+    height: 30px;
     box-shadow: 2px 2px 2px gray;
     border: solid 2px white;
     border-radius: 15px;
@@ -273,8 +259,9 @@ nav ul li a:hover {
 
 .listen-grid {
     display: grid;
-    grid-template-columns: repeat(2, 250px);
-    gap: 15px;
+    grid-template-columns: repeat(2, 150px);
+    gap: 10px;
+    margin: 25px auto 25px auto;
 }
 
 /* -------------------- */
@@ -349,18 +336,84 @@ footer p {
 }
 /* -------------------- */
 
-
 /* Media Queries */
 
-        /* logo */
-@media (max-width: 1531px) {
-    .logo {
-            width: 300px;
-            height: 300px;
-            margin-bottom: 50px;
+@media (min-width: 1200px) {
+    
+    p {
+        font-size: 85%;
     }
 
-    /* navbar */
+    /* Header section */
+
+    header {
+        background: none;
+        text-align: center;
+        position: relative;
+        display: block;
+
+    }
+
+    header h1 {
+        font-size: 2em;
+        margin: 50px 0 0 0;
+    }
+
+    header h5 {
+        margin: 0 0 50px 0;
+        font-size: small;
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .mobile-logo{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+        width: 300px;
+        height: 300px;
+        margin: 0 auto 50px auto;
+        transition: .5s;
+    }
+
+    /* -------------------- */
+
+    /* Nav Section */
+
+    nav {
+        display: block;
+        width: auto;
+        border-bottom: solid rgba(255, 255, 255, 0.4) 2px ;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    
+    }
+    
+    nav ul {
+        background: rgba(255, 255, 255, 0.418);
+        padding: 45px 0;
+        margin: 0 0 50px 0;
+        color: black;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        transition: .2s;
+    }
+    
+    nav ul li:hover {
+        /* transform: scale(1.07); */
+        transition: .2s;
+    }
+    
     nav ul li a {
         text-decoration: none;
         list-style-type: none;
@@ -373,8 +426,18 @@ footer p {
         padding: 7px 15px;
         box-shadow: 2px 2px 2px black;
         border: solid white 2px;
-    
+        transition: .5s;
     }
+    
+    nav ul li a:hover {
+        color: white;
+        background: rgb(0, 0, 0);
+        transition: .2s;
+    }
+    
+    /* -------------------- */
+
+    /* about section */
 
     .about h1 {
         display: inline-block;
@@ -387,197 +450,66 @@ footer p {
         transition: .2s;
     }
 
-    .about p {
-        /* margin-left: 150px;
-        margin-right: 150px; */
-        display: inline-block;
-        width: 1117px;
-        transition: .2s;
-    }
-
-    .about-img {
-        border: solid white 15px;
-        border-radius: 80px;
-        margin: 25px;
-        height: 286px;
-        width: 1117px;
-        transition: .2s;
-    }
-
-    .mth h1 {
-        display: inline-block;
-        margin: 50px 25px;
-        padding: 30px 200px;
-        font-weight: 600;
-        letter-spacing: 3px;
-        color: black;
-        background: white;
-        border-radius: 45px;
-        transition: .2s;
-    }
-
-}
-
-@media (max-width: 1200px) {
-
-
-    /* header section */
-    .logo {
-        display: none;
-    }
-
-    header {
-        background: rgb(146, 146, 146);
-        margin: 0 auto;
-        padding: 25px 25px;
-        text-align: left;
-        position: sticky;
-        top: 0px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    header h1 {
-        font-size: xx-large;
-        text-shadow: 2px 2px 2px black;
-        margin: 0 0;
-    }
-
-    header h5 {
-        display: none;
-    }
-
-/* -------------------- */
-
-    /* nav section */
-    nav {
-        display: none;
-    }
-
-    .menu {
-        margin-top: 15px;
-        height: 36px;
-        width: 36px;
-        display: inline;
-        transition: .2s;
-    }
-
-    .menu:hover {
-        filter: invert(1);
-        transition: .2s;
-        cursor: pointer;
-    }
-
-    /* -------------------- */
-
-    .mobile-logo {
-        display: block;
-        height: auto;
-        width: 70vw;
-        margin: 70px auto 25px auto;
-    }
-
-    /* About section */
-
-    .about h1 {
-        display: inline-block;
-        margin: 25px auto;
-        padding: 0;
-        font-weight: bold;
-        letter-spacing: 3px;
-        background: none;
-        color: white;
-        border-radius: 45px;
-        text-shadow: 2px 2px 2px gray;
-        transition: .2s;
-    }
-
-    .about p {
-        width: 80vw;
-    }
-
-    .about-img {
-        width: 80vw;
-        height: auto;
-        margin: 25px auto;
-        border: solid white 5px;
-    }
-
     /* -------------------- */
 
     /* Meet the hosts section */
 
     .mth h1 {
         display: inline-block;
-        margin: 25px auto;
-        padding: 0;
-        font-weight: bold;
-        letter-spacing: 3px;
-        background: none;
-        color: white;
+        margin: 45px 25px;
+        padding: 30px 200px;
+        font-weight: 600;
+        color: black;
+        background: white;
         border-radius: 45px;
         transition: .2s;
     }
 
-    .mth p {
-        width: 70vw;
-        margin: 25px auto;
-        padding-bottom: 15px;
-    }
-
     .headshot-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: space-between;
     }
 
     .head-flex {
         display: flex;
         flex-direction: column;
-        margin: 0;
+        margin: 0 auto;
     }
 
     .headshot {
-        margin: 35px auto 20px auto;
-        width: 50vw;
-        height: auto;
+        display: block;
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 50px;
+        border: solid white 8px;
+        transition: .2s;
+    }
 
+    .head-flex p {
+        margin: 20 auto;
+        width: 40vw;
     }
 
     /* -------------------- */
 
-    /* listen now section */
+    /* Listen Now section */
 
     .listen h1 {
         display: inline-block;
-        margin: 25px auto;
-        padding: 0;
-        font-weight: bold;
-        letter-spacing: 3px;
-        background: none;
-        color: white;
+        margin: 45px 25px;
+        padding: 30px 200px;
+        font-weight: 600;
+        color: black;
+        background: white;
         border-radius: 45px;
         transition: .2s;
     }
 
-    .listen p {
-        margin: 25px auto;
-        width: 70vw;
-    }
-
-    .listen-grid {
-        margin: 25px auto 25px auto;
-    }
-
-    .listen-flex {
-        flex-direction: column;
-        justify-content: center;
-        margin: 25px auto;
-    }
-
     .badge {
-        width: 200px;
-        height: 50px;
+        width: 250px;
+        height: 65px;
         box-shadow: 2px 2px 2px gray;
         border: solid 2px white;
         border-radius: 15px;
@@ -585,9 +517,124 @@ footer p {
     
     .listen-grid {
         display: grid;
-        grid-template-columns: repeat(2, 200px);
+        grid-template-columns: repeat(2, 250px);
         gap: 15px;
     }
+
+    /* -------------------- */
+
+}
+
+@media (min-width: 1490px) {
+
+    p {
+        font-size: 100%;
+    }
+
+    /* Header section */
+
+    header h1 {
+        margin: 15px 0 0 0;
+    }
+
+    header h5 {
+        margin-bottom: 5px;
+    }
+
+    .logo {
+        width: 450px;
+        height: 450px;
+        margin-bottom: 0px;
+        transition: .5s;
+    }
+
+    /* -------------------- */
+
+    /* Nav Section */
+
+    nav ul li a {
+        text-decoration: none;
+        list-style-type: none;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 35px;
+        margin: 0px 50px;
+        padding: 15px 30px;
+        box-shadow: 2px 2px 2px black;
+        transition: .5s;
+        border: solid white 2px;
+    
+    }
+
+    /* -------------------- */
+
+    /* section headings */
+
+    .about h1 {
+        display: inline-block;
+        margin: 45px 25px;
+        padding: 45px 300px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+    .mth h1 {
+        display: inline-block;
+        margin: 45px 25px;
+        padding: 45px 300px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+    .listen h1 {
+        display: inline-block;
+        margin: 45px 25px;
+        padding: 45px 300px;
+        font-weight: bold;
+        letter-spacing: 3px;
+        color: black;
+        background: white;
+        border-radius: 45px;
+        transition: .2s;
+    }
+
+    /* Listen now section */
+
+    .listen-flex {
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 25px;
+    }
+    
+    .badge {
+        width: 250px;
+        height: 65px;
+        box-shadow: 2px 2px 2px gray;
+        border: solid 2px white;
+        border-radius: 15px;
+    }
+    
+    .listen-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+        gap: 15px;
+    }
+
+    .listen-flex p {
+        width: 400px;
+        margin: auto 10px;
+        color: white;
+    }
+
     /* -------------------- */
 
 }
