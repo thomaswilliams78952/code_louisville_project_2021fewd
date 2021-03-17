@@ -296,7 +296,7 @@ nav {
     height: 75px;
     width: auto;
     animation-name: float;
-    animation-duration: 7s;
+    animation-duration: 11s;
     animation-fill-mode: both;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
@@ -557,6 +557,27 @@ footer p {
         display: grid;
         grid-template-columns: repeat(2, 250px);
         gap: 15px;
+    }
+
+    .planet-brown {
+        display: inline;
+        position: relative;
+        height: 100px;
+        top: -525px;
+        right: -575px;
+        width: auto;
+        animation: spin 105s infinite linear;
+    }
+
+    .planet-yellow {
+        display: inline;
+        position: relative;
+        height: 175px;
+        top: -650px;
+        left: -500px;
+        width: auto;
+        animation: rock 30s infinite linear;
+
     }
 
     /* -------------------- */
