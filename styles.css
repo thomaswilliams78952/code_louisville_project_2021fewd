@@ -62,8 +62,8 @@ header {
     position: fixed;
     right: 0;
     top: 200px;
-    width: 30vw;
-    height: 20vh;
+    width: 50vw;
+    height: 25vh;
     margin-top: -3em;
     text-align: center;
     display: none;
@@ -96,6 +96,14 @@ header {
 .close-menu:hover {
     transform: scale(1.3) rotate(180deg);
     transition: .5s;
+}
+
+.planet-yellow {
+    display: none;
+}
+
+.planet-brown {
+    display: none;
 }
 
 /* -------------------- */
@@ -282,6 +290,16 @@ nav {
     grid-template-columns: repeat(2, 150px);
     gap: 10px;
     margin: 25px auto 25px auto;
+}
+
+.ship {
+    height: 75px;
+    width: auto;
+    animation-name: float;
+    animation-duration: 7s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 /* -------------------- */
@@ -568,6 +586,27 @@ footer p {
         transition: .5s;
     }
 
+    .planet-brown {
+        display: inline;
+        position: relative;
+        height: 125px;
+        top: -650px;
+        right: -950px;
+        width: auto;
+        animation: spin 75s infinite linear;
+    }
+
+    .planet-yellow {
+        display: inline;
+        position: relative;
+        height: 300px;
+        top: -750px;
+        left: -650px;
+        width: auto;
+        animation: rock 20s infinite linear;
+
+    }
+
     /* -------------------- */
 
     /* Nav Section */
@@ -655,6 +694,24 @@ footer p {
         color: white;
     }
 
+
+
     /* -------------------- */
 
+}
+
+/* Keyframes */
+
+@keyframes float {
+    from{ transform: translateX(-1100px);}
+    to{ transform: translatex(1200px);}
+}
+
+@keyframes spin {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(-359deg);}
+}
+
+@keyframes rock {
+    50% { transform: rotate(15deg);}
 }
