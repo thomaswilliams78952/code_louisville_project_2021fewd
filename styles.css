@@ -589,11 +589,11 @@ footer p {
     .planet-brown {
         display: inline;
         position: relative;
-        height: 125px;
+        height: 250px;
         top: -650px;
         right: -950px;
         width: auto;
-        animation: spin 75s infinite linear;
+        animation: spin 105s infinite linear;
     }
 
     .planet-yellow {
@@ -601,9 +601,9 @@ footer p {
         position: relative;
         height: 300px;
         top: -750px;
-        left: -650px;
+        left: -750px;
         width: auto;
-        animation: rock 20s infinite linear;
+        animation: rock 30s infinite linear;
 
     }
 
