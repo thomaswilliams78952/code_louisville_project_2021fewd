@@ -30,3 +30,4 @@ Project requirements:
     Media Queries-
         The website was made with a mobile first approach and there are a total of two media queries that change the layout of the site at medium and large viewport sizes
     
+    4. Line 88 has an nth-child pseudo-class that styles the background of every other mobile menu item and applied a border radius
