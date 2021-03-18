@@ -583,7 +583,7 @@ footer p {
         position: relative;
         height: 100px;
         top: -525px;
-        right: -575px;
+        right: -625px;
         width: auto;
         animation: spin 105s infinite linear;
     }
@@ -630,8 +630,8 @@ footer p {
         display: inline;
         position: relative;
         height: 200px;
-        top: -650px;
-        right: -850px;
+        top: -600px;
+        right: -750px;
         width: auto;
         animation: spin 95s infinite linear;
     }
