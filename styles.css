@@ -87,7 +87,6 @@ header {
 
 .mobile-menu ul li:nth-child(even) {
     background: rgb(202, 202, 202);
-    color: white;
     border-radius: 5px;
 }
 
