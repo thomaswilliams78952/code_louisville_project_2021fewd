@@ -3,7 +3,7 @@
 * {
     font-family: 'Source Code Pro', monospace;
     font-size: xx-large;
-    color: rgb(255, 255, 255);    
+    color: rgb(255, 255, 255);
 }
 
 p {
@@ -30,6 +30,14 @@ body {
 /* -------------------- */
 
 /* Header Section */
+
+.planet-brown {
+    display: none;
+}
+
+.planet-yellow {
+    display: none;
+}
 
 header h1 {
     font-size: 75%;
@@ -72,6 +80,7 @@ header {
 .mobile-menu a {
     color: black;
     text-decoration: none;
+    font-size: 75%;
     text-shadow: 2px 2px 2px gray;
 }
 
@@ -290,6 +299,10 @@ nav {
     grid-template-columns: repeat(2, 150px);
     gap: 10px;
     margin: 25px auto 25px auto;
+}
+
+.hide-overflow{
+    overflow-x: hidden;
 }
 
 .ship {
@@ -610,21 +623,21 @@ footer p {
     .planet-brown {
         display: inline;
         position: relative;
-        height: 250px;
+        height: 200px;
         top: -650px;
-        right: -950px;
+        right: -850px;
         width: auto;
-        animation: spin 105s infinite linear;
+        animation: spin 95s infinite linear;
     }
 
     .planet-yellow {
         display: inline;
         position: relative;
-        height: 300px;
+        height: 200px;
         top: -750px;
-        left: -750px;
+        left: -610px;
         width: auto;
-        animation: rock 30s infinite linear;
+        animation: rock 28s infinite linear;
 
     }
 
