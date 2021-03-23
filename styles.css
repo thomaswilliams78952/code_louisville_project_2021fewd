@@ -350,6 +350,7 @@ footer h3 {
     padding: 6px 7px;
     color: black;
     font-size: medium;
+    text-decoration: none;
     margin: 20px 0 0 0;
     box-shadow: 1px 1px 1px black;
     transition: 0.4s;
