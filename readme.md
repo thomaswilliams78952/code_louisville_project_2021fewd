@@ -1,6 +1,6 @@
 # The Silent Planet Podcast
 
-Its is a concept website for a podcast. All text is currently lorem placeholder.
+This is a concept website for a podcast. All text is currently lorem placeholder.
 
 Its is broken into 4 total sections with one external link that leads to amazon.com(this is supposed to represent a store front for the podcast merch) and four others that lead to podcasy hosting sites.
 
