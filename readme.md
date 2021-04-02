@@ -27,9 +27,9 @@ Project requirements:
    2. I used Flexbox and CSS Grid to house pictures and text. The first set of flexboxes are in the "Meet the Hosts" section page. there are two flexboxes containing headshots, names, and p elements wrapped by a third larger flex box. This is to allow the two bios to be displayed vertically and spaced evenly through the section. They display side by side in medium and large screen sizes and then stack when the viewport changes to a small size. The CSS grid is in the "Listen Now" section. It is used to display 4 podcast site links in a specified grid layout. This changes sizes going from small to medium viewports. It is held by yet another flexbox along with a paragraph element and changes from a horizontal layout to a vertical layout once again based on viewport size.
     
    3. Javascript is used to show/hide the menu at the top of the screen in a smaller view by clicking on the hamburger icon at the top right.
-    
-   Media Queries -
+   
+   4. Line 88 has an nth-child pseudo-class that styles the background of every other mobile menu item and applied a border radius
+   
+Media Queries -
    
    The website was made with a mobile first approach and there are a total of two media queries that change the layout of the site at medium and large viewport sizes
-    
-   4. Line 88 has an nth-child pseudo-class that styles the background of every other mobile menu item and applied a border radius
